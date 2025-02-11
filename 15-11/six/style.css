@@ -1,0 +1,44 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  .work-done .section-title {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .work-done .info-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .work-done .info-item .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+  }
+  
+  .work-done .info-item h5 {
+    font-size: 1.2rem;
+  }
+  
+  .work-done .info-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Colors */
+  .bg-teal {
+    background-color: #20c997;
+  }
+  .text-danger {
+    color: #dc3545 !important;
+  }
+  

@@ -1,0 +1,60 @@
+body {
+  background-color: #1f2738;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #1f2738;
+}
+
+.navbar-brand {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.header-content {
+  text-align: center;
+  padding: 90px 20px;
+}
+
+.info-cards {
+  padding: 0px 20px;
+}
+
+.card {
+  background-color: #2a324a;
+  color: #ffffff;
+  border: none;
+}
+
+.card-icon {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.row-line {
+  border-top: 2px solid red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 25%;
+}
+
+.row-line3 {
+  border-top: 2px solid rgb(240, 237, 237);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 25%;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #0dcaf0;
+}

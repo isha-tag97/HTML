@@ -1,0 +1,43 @@
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+.custom-btn-orange {
+  background-color: #ff7a33;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+
+  border: none;
+}
+
+.custom-btn-orange:hover {
+  background-color: #e66b2f;
+}
+
+.custom-btn-outline-secondary {
+  background-color: #00a2a2;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  border: none;
+}
+
+.custom-btn-outline-secondary:hover {
+  background-color: #00a2a2;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

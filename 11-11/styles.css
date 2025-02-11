@@ -1,0 +1,281 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f8f9;
+  color: #333;
+  /* scroll-behavior: smooth; */
+}
+
+.navbar {
+  padding: 15px 51px;
+  transition: all 0.5s;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #e7f6e7;
+}
+
+.hero-content {
+  max-width: 50%; /* Limits the text content width */
+}
+
+h1, h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.hero-section h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  /* margin: 39px; */
+}
+
+.hero-section p {
+  font-size: 19px;
+  color: #666;
+  /* margin: 40px; */
+}
+
+.hero-image {
+  max-width: 45%; /* Adjusts the image width */
+  height: auto;
+}
+
+/* Button Styles */
+.btn-custom {
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+
+.btn-get-started {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-watch-video {
+  color: #4caf50;
+}
+
+/* Card Styles */
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: adds some shadow */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  border-radius: 24px;
+  
+}
+
+
+
+
+/* Card Icon Styles */
+.card-icon {
+  font-size: 50px;
+  color: #4caf50;
+  text-align: center;
+}
+
+/* Card Title Styles */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+/* Card Text Styles */
+.card-text {
+  font-size: 1rem;
+  margin-top: 15px;
+}
+
+/* Stretched Link Effect on Card */
+.card .stretched-link::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: "";
+  background-color: rgba(
+    76,
+    175,
+    80,
+    0.3
+  ); /* Green color with some transparency */
+  border-radius: 10px; /* Rounded corners to match the card */
+}
+
+/* Hover effect for card */
+.card:hover .stretched-link::after {
+  background-color: rgba(
+    76,
+    175,
+    80,
+    0.5
+  ); /* Slightly darker green when hovered */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight lifting effect on hover */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+}
+
+.card:hover .card-icon {
+  color: white;
+}
+
+.card:hover .card-title {
+  color: white;
+}
+
+/* Section Padding */
+.section {
+  padding: 80px 20px;
+}
+
+/* Info Cards Section */
+.info-cards .card {
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-cards .card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background-color: #4caf50 !important;
+}
+
+/* Section Styling */
+section {
+  padding: 60px 0;
+}
+
+/* Adjust Card hover transition */
+.card:hover {
+  transform: translateY(-8px); /* Slightly more lift */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  right: 100%;
+  margin-top: -6px;
+}
+
+.nav-link {
+  padding: 18px 15px !important;
+}
+.navbar-nav .nav-link.active {
+  color: green !important; /* Green color when active */
+}
+
+/* Optional: Change color of the dropdown items when active */
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+  color: green !important; /* Ensure green color on hover and focus */
+}
+
+/* Optional: Customize dropdown menu link when active */
+.dropdown-item.active {
+  color: green !important;
+}
+
+.combined-container {
+  padding: 15px 49px;
+  background-color: #e7f6e7;
+}
+/*Custom styles for nested dropdown */
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu > .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: 100%;
+  margin-top: -1px;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown-submenu:hover > a::after {
+  transform: rotate(90deg);
+}
+.dropdown-toggle::after {
+  display: inline-block;
+  transition: transform 0.2s;
+}
+.description-title{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+/* ---------service--- */
+
+.card-icon1{
+    font-size: 50px;
+  color: #f4fcf5;
+  text-align: left;;
+  background-color:#4caf50;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  height: 65px;
+  width: 65px;
+  
+}
+
+.fet{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Hover effect for the icon */
+.card2-icon:hover i {
+    color: yellow !important;
+    
+    
+    /* Ensure the icon's color changes on hover */
+}
+.col {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0%;
+}
+.card2-icon i{
+    font-size: 28px;
+}
+ /* Apply the green hover effect */
+  .hover-green:hover {
+    border-color: #28a745 !important;
+    color: #28a745 !important;
+  }
+
+  .hover-green:hover i {
+    color: #28a745 !important;
+  }
+  
+  
+  
+  .icon-hover {
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  .icon-hover:hover {
+    color: white !important; /* Change icon color to white on hover */
+    background-color: #28a745; /* Optional: Keep the background color of the icon */
+  }

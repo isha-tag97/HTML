@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Topic UI</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="custom-header d-flex justify-content-between align-items-center p-2  border-bottom">
+    <!-- Logo Section -->
+    <div class="logo text-dark d-flex align-items-center">
+      <i class="fa-solid fa-stroopwafel me-2"></i>
+      <span>Topic</span>
+    </div>
+  
+    <!-- Navigation Section -->
+    <nav class="d-flex align-items-center">
+      <a href="index.html" class="text-dark mx-3 text-decoration-none">HOME</a>
+      <a href="About.html" class="text-light mx-3 text-decoration-none">About</a>
+      <a href="works.html" class="text-light mx-3 text-decoration-none">Works</a>
+      <a href="https://chromewebstore.google.com/" class="text-light mx-3 text-decoration-none">FAQs</a>
+      <a href="https://themewagon.github.io/TopicListing/index.html#section_1" class="text-light mx-3 text-decoration-none">Contact</a>
+  
+      <!-- Dropdown -->
+      <div class="dropdown">
+        <a href="#" class="text-light dropdown-toggle mx-3 " data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Page 1</a></li>
+          <li><a class="dropdown-item" href="#">Page 2</a></li>
+          <li><a class="dropdown-item" href="#">Page 3</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <!-- User Icon Section -->
+    <div class="circle-container">
+      <i class="fa-solid fa-user text-dark"></i>
+    </div>
+  </header>
+  
+  <main>
+    <section class="hero">
+      <h1>Discover. Learn. Enjoy</h1>
+      <p class="text-dark">Platform for creatives around the world</p>
+      <div class="parent-container">
+        <div class="search-bar">
+          <i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder=" Design, code, Marketing, Finance...">
+          <button>Search</button>
+        </div>
+      </div>
+    </section>
+    
+    <!-- ------- Card Section -------->
+     <div class="cardbg">
+    <section class="cards ">
+      <div class="card-container">
+        <div class="card1">
+          <div class="d-flex justify-content-between align-items-center">
+            <h3>Web Design</h3>
+            <span class="badge bg-design rounded-pill">14</span>
+          </div>
+                     <p>When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
+            <img src="one.png" alt="Web Design" class="card-image">
+        </div>
+      </div>
+    
+      <div class="card-container">
+        <div class="card">
+           <h3>Finance <span class="badge">25</span></h3>
+          <p>Topic Listing Template includes homepage, listing page, detail page, and contact page. You can feel free to edit and adapt for your CMS requirements.</p>
+          <button>Learn More</button>
+          <div class="share-icons"> 
+            <div class="d-flex justify-content-between">
+              <!-- Left section: Facebook icons -->
+              <div class="d-flex align-items-center gap-3">
+                <span class="mr-2">Share:</span>
+                <i class="fa-brands fa-facebook fa-lg icon"></i>
+                <i class="fa-brands fa-facebook fa-lg icon"></i>
+                <i class="fa-brands fa-facebook fa-lg icon"></i>
+              </div>
+              
+              <!-- Right section: Bookmark icon -->
+              <div>
+                <i class="fa-regular fa-bookmark ms-auto"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

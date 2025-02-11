@@ -1,0 +1,174 @@
+.btn-orange {
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 72px;
+    font-size: 11px;
+    height: 30px;
+}
+
+.card-text {
+    font-size: 11px;
+}
+
+.btn-orange:hover {
+    background-color: #ff6333;
+}
+
+.icon {
+    font-size: 24px; 
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.text-muted {
+    font-size: 11px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    border-radius: 10px;
+    height: 111px; 
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.card-body1 {
+    text-align: center;
+}
+
+.card1 {
+    height: 204px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 10px 111px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card1:hover {
+    transform: scale(1.05);
+}
+
+.card1-img-top {
+    border-radius: 10px;
+    height: 100px; 
+    object-fit: cover;
+}
+
+.card1-body {
+    text-align: left;  
+}
+
+.btn {
+    width: 100px;
+}
+
+.card-img {
+    width: 73px;
+    height: 73px; 
+    object-fit: cover;
+}
+
+.profile-pic {
+    width: 66px;
+    height: 66px;
+}
+
+.bottom {
+    margin-top: 74px;
+}
+
+.height1 {
+    height: 100vh;
+    justify-content: space-between;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.boxicon {
+    top: 91px !important;
+    right: 24px !important;
+}
+
+/* Sidebar styles */
+.sidebar {
+    transform: translateX(-100%);
+    display: none;
+    transition: transform 0.3s ease;
+    margin-left: 0px;
+}
+
+.d-flex {
+    transition: margin-left 0.3s ease; /* Smooth transition for content */
+}
+
+/* When the sidebar is toggled */
+#sidebarToggle:checked ~ .d-flex .sidebar {
+    transform: translateX(0);
+    display: block; /* Show sidebar */
+}
+
+#sidebarToggle:checked ~ .d-flex {
+    margin-left: 250px; /* Adjust margin when sidebar is visible */
+}
+
+/* Button styles */
+.btn1 {
+    position: fixed;
+    top: 4px;
+    left: 10px; /* Adjust left position for the toggle button */
+    padding: 3px 10px;
+    z-index: 1;
+    width: 30px;
+}
+.layout{
+    display: flex;
+}
+
+.flex-grow-1{
+    margin-left: -250px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 575px) {
+    .img-fluid {
+        max-height: 250px;
+    }
+}
+
+@media (min-width: 576px) {
+    .img-fluid {
+        max-height: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    .img-fluid {
+        max-height: 400px;
+    }
+}
+
+@media (min-width: 1140px) {
+    .img-fluid {
+        max-height: 450px;
+    }
+}

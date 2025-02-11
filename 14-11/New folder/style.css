@@ -1,0 +1,85 @@
+/* Centering the profile card and making adjustments */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.card {
+  border: none;
+  width: 100%; /* Ensure the card takes full width within its container */
+  max-width: 762px; /* Limit the maximum width */
+  /* padding: 20px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+  width: 80px; /* Set the width of the profile image */
+  height: 80px; /* Set the height of the profile image */
+  border-radius: 50%; /* Make it circular */
+  object-fit: cover; /* Ensure the image fits well inside the circle */
+}
+
+h5 {
+  margin-bottom: 0;
+}
+
+.text-muted {
+  font-size: 0.9rem;
+}
+
+.progress-bar {
+  background-color: #3b5998;
+}
+
+.social-icons a {
+  color: #555;
+  margin-right: 10px;
+}
+
+.social-icons a:hover {
+  color: #000;
+}
+
+.btn-primary {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.btn-outline-secondary {
+  border-color: #aaa;
+  color: #555;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #f0f0f0;
+}
+
+.icon-border {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  color: #555;
+  font-size: 18px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.icon-border:hover {
+  background-color: #f0f0f0;
+  border-color: #bbb;
+  color: #000;
+}
+
+.progress {
+  margin-top: 1rem;
+  height: 7px;
+}
